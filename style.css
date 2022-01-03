@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.imagem-cabecalho {
+  height: 72px;
+}
+
+.cabecalho-menu {
+  display: flex;
+  gap: 32px;
+}
+
+.cabecalho-menu-item {
+  font-family: "Sarala", sans-serif;
+  color: #fff2e7;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.corpo {
+  margin-bottom: 48px;
+  border-top: 0.4px solid #fff2e7;
+}
+
+.corpo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.corpo-principal-divisao {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.corpo-principal-titulo {
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 64px;
+  color: #fff2e7;
+}
+
+.corpo-principal-subtitulo {
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #ecd6c4;
+}
+
+.corpo-principal-botao {
+  background-color: #ecd6c4;
+  width: 180px;
+  height: 60px;
+  border: none;
+  box-shadow: 4px 5px 4px rgba(0, 0, 0.25);
+  border-radius: 20px;
+  font-family: "Sarala", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #2f2325;
+}
+
+.corpo-principal-botao:hover {
+  background-color: rgba(236, 214, 196, 0.53);
+}
+
+.corpo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+  margin-top: 48px;
+}
+
+.titulo-secundario {
+  border-top: 0.4px solid #fff2e7;
+  padding-top: 48px;
+  font-family: "Righteous", cursive;
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff2ef;
+  margin-bottom: 16px;
+}
+
+.paragrafo-secundario {
+  font-family: "Sarala", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #ecd6c4;
+}
+
+.rodape {
+  padding: 32px;
+  text-align: center;
+  border-top: 0.4px solid #fff2e7;
+  color: #ecd6c4;
+}
+
+.imagem-principal {
+  width: 30%;
+  height: auto;
+  padding-top: 20px;
+}
