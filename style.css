@@ -99,6 +99,13 @@ body {
   transition-duration: 1s;
 }
 
+.card-bot {
+  padding: 40px 0 40px 0;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
 .corpo-secundario {
   display: flex;
   flex-direction: column;
