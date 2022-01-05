@@ -9,7 +9,7 @@
 
 body {
   font-size: 100%;
-  background: linear-gradient(68.15deg, #2f2325 16.62%, #8e5d52 85.61%);
+  background: linear-gradient(68.15deg, #302f2f 16.62%, #1e90ff 85.61%);
 }
 
 .cabecalho {
@@ -22,11 +22,18 @@ body {
 
 .imagem-cabecalho {
   height: 72px;
+  margin-left: 30px;
+}
+
+.imagem-cabecalho:hover {
+  border: 3px solid #ffffff;
+  border-radius: 5px;
 }
 
 .cabecalho-menu {
   display: flex;
   gap: 32px;
+  margin-right: 30px;
 }
 
 .cabecalho-menu-item {
@@ -34,6 +41,12 @@ body {
   color: #fff2e7;
   font-weight: 400;
   font-size: 18px;
+}
+
+.cabecalho-menu-item:hover {
+  transition: 0.5s;
+  font-size: 20px;
+  color: #ffffff;
 }
 
 .corpo {
@@ -69,7 +82,7 @@ body {
 }
 
 .corpo-principal-botao {
-  background-color: #ecd6c4;
+  background-color: #74e1f0;
   width: 180px;
   height: 60px;
   border: none;
@@ -78,11 +91,12 @@ body {
   font-family: "Sarala", sans-serif;
   font-weight: 400;
   font-size: 24px;
-  color: #2f2325;
+  color: #000000;
 }
 
 .corpo-principal-botao:hover {
-  background-color: rgba(236, 214, 196, 0.53);
+  background-color: #838383;
+  transition-duration: 1s;
 }
 
 .corpo-secundario {
