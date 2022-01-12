@@ -12,19 +12,68 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
   </head>
   <body>
     <header class="cabecalho">
-      <a href="https://discord.gg/wagxzStdcR">
-        <img class="imagem-cabecalho" src="bot-header.png" />
-      </a>
-      <nav class="cabecalho-menu">
-        <a class="cabecalho-menu-item" href="https://discord.gg/wagxzStdcR"
-          >Comunidade BOT</a
-        >
-        <a class="cabecalho-menu-item" href="">Tutorial</a>
-        <a class="cabecalho-menu-item" href="">Open Source</a>
-        <a class="cabecalho-menu-item" href="">Comandos</a>
+      <nav
+        class="navbar is-dark"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="navbar-brand">
+          <a class="navbar-item" href="https://github.com/caiqueoliver">
+            <img src="namebot.png" width="80" height="150" />
+          </a>
+
+          <a
+            role="button"
+            class="navbar-burger"
+            aria-label="menu"
+            aria-expanded="false"
+            data-target="navbarBasicExample"
+          >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+
+        <div id="navbarBasicExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item"> Home </a>
+
+            <a class="navbar-item"> Documentação </a>
+
+            <a class="navbar-item"> Comandos </a>
+
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link"> More </a>
+
+              <div class="navbar-dropdown">
+                <a class="navbar-item"> Sobre </a>
+                <a class="navbar-item"> Jobs </a>
+                <a class="navbar-item"> Contato </a>
+                <hr class="navbar-divider" />
+                <a class="navbar-item"> Open Source </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="buttons">
+                <a class="button is-info">
+                  <strong>Sign up</strong>
+                </a>
+                <a class="button is-light"> Log in </a>
+              </div>
+            </div>
+          </div>
+        </div>
       </nav>
     </header>
     <main class="corpo">
@@ -32,9 +81,9 @@
         <div class="corpo-principal-divisao">
           <h1 class="corpo-principal-titulo">Landing Bot</h1>
           <h2 class="corpo-principal-subtitulo">
-            Uma página criada para desenvolvimento de BOT
+            Uma página criada para a comunidade Bot no Discord.
           </h2>
-          <a href="https://discord.gg/wagxzStdcR">
+          <a href="https://github.com/caiqueoliver">
             <button class="corpo-principal-botao" type="button">
               Me adicione
             </button>
@@ -89,7 +138,7 @@
       </section>
     </main>
     <footer class="rodape">
-      <p>Página Desenvolvida por Caique ©</p>
+      <p>Copyright © 2022 Caique Oliveira</p>
     </footer>
   </body>
 </html>
